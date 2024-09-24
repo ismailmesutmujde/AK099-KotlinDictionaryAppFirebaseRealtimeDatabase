@@ -3,6 +3,8 @@
     <style name="Base.Theme.KotlinDictionaryAppFirebaseRealtimeDatabase" parent="Theme.AppCompat.DayNight.DarkActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
     </style>
 
     <style name="Theme.KotlinDictionaryAppFirebaseRealtimeDatabase" parent="Base.Theme.KotlinDictionaryAppFirebaseRealtimeDatabase" />

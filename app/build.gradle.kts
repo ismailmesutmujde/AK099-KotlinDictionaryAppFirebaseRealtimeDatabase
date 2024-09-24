@@ -7,6 +7,10 @@ android {
     namespace = "com.ismailmesutmujde.kotlindictionaryappfirebaserealtimedatabase"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.ismailmesutmujde.kotlindictionaryappfirebaserealtimedatabase"
         minSdk = 24
